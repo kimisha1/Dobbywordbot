@@ -1,7 +1,9 @@
 # Telegram Formal English Rewriter Bot
 
 A single-file Telegram bot (`bot.py`) that sends user messages to Fireworks AI and replies with a formal, polished English version.
+
 Telegram bot :@Dobbywordbot
+
 ## Features
 - Formal English rewrite using Fireworks AI (`
 Dobby-Unhinged-Llama-3.3-70B`)
@@ -68,6 +70,7 @@ Bot is running. Press Ctrl+C to stop.
 - For production, consider moving secrets to environment variables or a secrets manager.
 - Add logging and monitoring if running at scale.
 - You can swap the system instruction to change rewriting style or language.
+
 
 
 
