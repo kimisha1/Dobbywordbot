@@ -12,7 +12,7 @@ from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandl
 TELEGRAM_BOT_TOKEN = "8355863786:AAHwdCwfyYSkq-E41VDxY2sRNhSyc6MwV4I"
 FIREWORKS_API_KEY = "fw_3ZkbWdZZRJTxUueSqoFckNJ9"
 FIREWORKS_URL = "https://api.fireworks.ai/inference/v1/chat/completions"
-FIREWORKS_MODEL = "accounts/fireworks/models/deepseek-v3p1"
+FIREWORKS_MODEL = "accounts/sentientfoundation/models/dobby-unhinged-llama-3-3-70b-new"
 GLOBAL_MAX_CONCURRENT_REQUESTS = 5
 _ai_call_semaphore = asyncio.Semaphore(GLOBAL_MAX_CONCURRENT_REQUESTS)
 
@@ -166,3 +166,4 @@ if __name__ == "__main__":
 		main()
 	except (KeyboardInterrupt, SystemExit):
 		pass
+
