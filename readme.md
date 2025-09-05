@@ -30,7 +30,7 @@ Optional concurrency tuning in `bot.py`:
 
 Model and endpoint:
 - `FIREWORKS_URL = "https://api.fireworks.ai/inference/v1/chat/completions"`
-- `FIREWORKS_MODEL = "accounts/fireworks/models/deepseek-v3p1"`
+- `FIREWORKS_MODEL = "accounts/sentientfoundation/models/dobby-unhinged-llama-3-3-70b-new"`
 
 ## Run
 ```bash
@@ -68,4 +68,5 @@ Bot is running. Press Ctrl+C to stop.
 - For production, consider moving secrets to environment variables or a secrets manager.
 - Add logging and monitoring if running at scale.
 - You can swap the system instruction to change rewriting style or language.
+
 
