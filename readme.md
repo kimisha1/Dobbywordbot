@@ -3,7 +3,8 @@
 A single-file Telegram bot (`bot.py`) that sends user messages to Fireworks AI and replies with a formal, polished English version.
 
 ## Features
-- Formal English rewrite using Fireworks AI (`deepseek-v3p1`)
+- Formal English rewrite using Fireworks AI (`
+Dobby-Unhinged-Llama-3.3-70B`)
 - Long polling (no webhook required)
 - Global concurrency limit to handle simultaneous requests
 - Simple retries with exponential backoff
@@ -67,3 +68,4 @@ Bot is running. Press Ctrl+C to stop.
 - For production, consider moving secrets to environment variables or a secrets manager.
 - Add logging and monitoring if running at scale.
 - You can swap the system instruction to change rewriting style or language.
+
